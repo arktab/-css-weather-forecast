@@ -1,0 +1,155 @@
+* {
+    font-family: sans-serif;
+    color: white;
+    transition: opacity .3s ease-in-out;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background: #3399cc;
+    width: 100%;
+    height: 100%;
+    border: 14px solid #2b81ac;
+}
+
+.border {
+    margin: 0 auto;
+    width: 984px;
+    max-width: 100%;
+    min-width: 625px;
+}
+
+
+header h1 {
+    display: block;
+    padding-top: 20px;
+    height: 70px;
+    font-size: 28px;
+}
+
+ul {
+    background: white;
+    height: 617px;
+    list-style: none;
+}
+
+.main {
+    padding: 3px;
+}
+
+.row {
+    height: 25%;
+    padding: 0;
+    font-size: 0;
+}
+
+.row li {
+    margin: 0px;
+    font-size: 24px;
+    display: inline-block;
+    backgrounpxd-color: gray;
+    text-align: center;
+
+}
+
+a {
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: white;
+    text-align: center;
+    margin: 3px;
+}
+
+.city {
+    /* text-align: center; */
+    /* padding-top: 30px; */
+}
+
+.deg {
+
+    padding-top: 5px;
+    opacity: .5;
+}
+
+i {
+    padding-left: 10px;
+    font-size: 34px;
+}
+
+.one_full {
+    width: 100%;
+}
+
+.one_two {
+    width: 50%;
+}
+
+.one_four {
+    width: 25%;
+}
+
+.main:hover > li > ul > li {
+    opacity: .3;
+}
+
+.main > li > ul > li:hover {
+    opacity: 1;
+}
+
+
+
+
+/* COLORING */
+.first_row .first a {
+    background: rgb(51, 153, 204);
+}
+
+.first_row .second a {
+    background: rgb(51, 204, 204);
+}
+
+.first_row .third a {
+    background: rgb(153, 102, 153);
+}
+
+.second_row .first a {
+    background: rgb(194, 71, 71);
+}
+
+.second_row .second a {
+    background: rgb(226, 103, 74);
+}
+
+.second_row .third a {
+    background: rgb(255, 204, 102);
+}
+
+.second_row .fourth a {
+    background: rgb(153, 204, 153);
+}
+
+.third_row .first a {
+    background: rgb(102, 153, 153);
+}
+
+.third_row .second a {
+    background: rgb(204, 102, 153);
+}
+
+.third_row .third a {
+    background: rgb(51, 153, 102);
+}
+
+.fourth_row .first a {
+    background: rgb(102, 102, 153);
+}
+.footer {
+    padding-top: 30px;
+}
